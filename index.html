@@ -1,181 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-        <meta charset="UTF8">
-        <meta name="viewport" content="width=device-width,">
-        <title>Proyecto_Maquetacion</title>
-        <link rel="icon" type="image/x-icon" href="img/4.png">
         <link rel="stylesheet" href="css/estilo.css">
+        <meta http-equiv="Content-Type" content="text/html"; charset="UFT-8"/>
+        <title id="titulo">Ejercicio HTML y CSS</title>
 </head>
-
 <body>
-    <!--Menu de navegacion-->
     <div id="contenedor">
-         <!--Cabecera Logotipo-->
-    <header id="header">
-        <div id="logotipo">
-            <img src="img/4.png" alt="Logotipo WEB"> <!--Logotipo-->
-        </div>
-        <a href="#">
-            <h1>Desarrollo Web UMG</h1>
-        </a>
-    </header>
-    <!--Fin Cabecera-->
-    
-    <!--Inicio de Botones-->
-        <nav id="nav">
-                <ul>
+        <header>
+            
+            <h1>EJERCICIO HTML Y CSS </h1>
+
+        </header>
+
+        <nav>
+            <!--Aqui empiezan los botones del menu-->
+            <div id="menu"> 
+                <ul class="nav">
                 <!--Boton de inicio-->
-                    <li>
-                        <a href="index.html">Inicio </a>
-                    </li>
-                <!--Boton de contenido-->
-                    <li>
-                        <a href="index.html">Contenido </a>
-                    </li>
-                <!--Boton de requerimientos-->
-                    <li>
-                        <a href="index.html">Requerimientos</a>
-                    </li>
-                <!--Boton de Lenguajes-->
-                    <li>
-                        <a href="index.html">Lenguajes</a>
-                    </li>
-                <!--Boton de Heramientas-->
-                    <li>
-                        <a href="index.html">Herramientas </a>
-                    </li>
-                <!--Boton de Proyectos-->
-                    <li>
-                        <a href="index.html">Proyectos</a>
-                    </li>
-                <!--Boton de Instructor-->
-                    <li>
-                        <a href="index.html">Instructor</a>
-                    </li>
-                <!--Boton de Reseñas-->
-                    <li>
-                        <a href="index.html">Reseñas</a>
-                    </li>
-                <!--Boton de Blog-->
-                    <li>
-                        <a href="index.html">Blog</a>
-                    </li>
+                    <li><a href="index.html">INICIO </a></li>
+                <!--Boton de articulos-->
+                    <li><a href="">ARTICULOS </a></li>
+                <!--Boton de categorias-->
+                <li><a href="">CATEGORIAS </a></li>
                 <!--Boton de contacto-->
-                    <li>
-                        <a href="index.html">Contacto </a>
-                        <ul>
-                        <!--Boton de integrantes-->
-                            <li>
-                                <a href="juan.html">Juan Sandoval</a>
-                            </li>
-                            <li>
-                                <a href="mariela.html">Mariela Micheo</a>
-                            </li>
-                            <li>
-                                <a href="daniel.html">Daniel Alarcon</a>
-                            </li>
-                        </ul>
-                    </li>
+                <li><a href="">CONTACTO </a>
+                <ul>
+                <!--Boton de integrantes-->
+
+                <li><a href="juan.html">Juan Sandoval </a></li>
+                <li><a href="mariela.html">Mariela Micheo  </a></li>
+                <li><a href="daniel.html">Daniel Alarcon </a></li>
                 </ul>
-        </nav>
-        <!--Fin de navegacion-->
-        
-        <!--Contenido de Central-->
-            <div id="content">
-                <!--Barra lateral-->
-                <aside id="aside">
-                    <div class="widget" id=login>
-                        <h3 class="blue">Webinar FrontEnd</h3>
-                        <form action="">
-                            <label>User:</label>
-                            <input type="text">
-                            <label>Password</label>
-                            <input type="password">
-                            <input type="submit" value="Enviar">
-                        </form>
-
-                    </div>
-                    <div class="widget" id=login>
-                        <h3 class="green">Webinar BackEnd</h3>
-                        <form action="">
-                            <label>User:</label>
-                            <input type="text">
-                            <label>Password</label>
-                            <input type="password">
-                            <input type="submit" value="Enviar">
-                        </form>
-                    </div>
-                    <div class="widget" id=login>
-                        <h3>Enlaces Relacionados</h3>
-                        <ul>
-                            <li>
-                                <a href="#">Curso HTML5</a>
-                            </li>
-                            <li>
-                                <a href="#">Curso CSS</a>
-                            </li>
-                            <li>
-                                <a href="#">Curso JavaScript</a>
-                            </li>
-                        </ul>
-                    </div>
-                </aside>
-                <!--Fin de barra lateral-->
-                <div id="sections">
-                    <section id = "frontend">
-                            <span class="stickers">
-                                <img class ="sticker1" src="">
-                                <img class="sticker2" src="">
-                            </span>
-    
-                            <h2 class="titulo blue">Informacion de FrontEnd</h2>
-                            <article class="article">
-                                <p>
-                                    <a href="">Introduccion a FrontEnd</a>
-                                </p>
-                                <span class="date">(28/07/2020) Juan Sandoval</span>
-                            </article>
-                    </section>
-
-                    <section id = "frontend">
-                        <span class="stickers">
-                            <img class ="sticker1" src="">
-                            <img class="sticker2" src="">
-                        </span>
-
-                        <h2 class="titulo blue">Informacion de BackEnd</h2>
-                        <article class="article">
-                            <p>
-                                <a href="">Introduccion a BackEnd</a>
-                            </p>
-                            <span class="date">(28/07/2020) Micheo Osorio</span>
-                        </article>
-                </section>
-
-
-
-                <section id = "frontend">
-                    <span class="stickers">
-                        <img class ="sticker1" src="">
-                        <img class="sticker2" src="">
-                    </span>
-
-                    <h2 class="titulo blue">Informacion de Css</h2>
-                    <article class="article">
-                        <p>
-                            <a href="">Introduccion a CSS</a>
-                        </p>
-                        <span class="date">(28/07/2020) Daniel Alarcon</span>
-                    </article>
-            </section>
-
-                </div>
+                </li>
+                </ul>
             </div>
-        <!--Fin contenido central-->
-        <footer id="piepag">
-            <h4>Todos los Derechos Reservados © Grupo 3, Jutiapa</h4>
+        </nav>
+
+        
+            <nav>
+              <div class="contenido">
+            
+        <ul>
+            <li> <div class="title">Juan Sandoval <div><img class="img" src="img/1.jpeg"></div></div></li>
+    
+            <li><div class="title">Daniel Alarcon<div><img class="img" src="img/2.jpeg"></div></div></li>
+
+            <li><div class="title">Mariela Micheo<div><img class="img" src="img/3.jpg"></div></div></li>
+
+            <li><div class="title">Universidad Mariano Galvez <div><img class="img" src="img/4.png"></div></div></li>
+           
+        </ul>
+    </div>
+        </section>
+</nav>
+        <aside>
+            <h2> HTML y CSS</h2>
+            <h3>HTML es el lenguaje de programacion con el que se escribe la inmensa mayoria de paginas web, es decir, es el lenguaje que se emplea para la creacion de los sitios web a los que se accede a traves de una conexion a internet. </h3>
+            <h4><br>HTML fue evolucionando, comienza a incluir informacion relativa al aspecto de esos contenidos tales como colores, margenes, tipos de letra, etc. Es asi como llega CSS, un mecanismo que permite mantener separados los contenidos que se definen mediante HTML, del aspecto/interfaz que deben mostrar tales contenidos.</br></h4>
+        </aside>
+
+
+        <footer>
+            <h2>Todos los Derechos Reservados © Desarrollo Web UMG, Jutiapa</h2>
         </footer>
 
     </div>
