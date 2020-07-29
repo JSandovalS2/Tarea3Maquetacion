@@ -4,7 +4,7 @@
 }
 
 body{
-    background: white;
+    background-image: url(https://image.freepik.com/vector-gratis/lineas-transistor-fondo-blanco-tecnologia_23-2148386606.jpg);
 }
 
 #titulo{
@@ -13,7 +13,7 @@ body{
 
 /*Colores*/
 .green{
-    color: green !important;
+    color: #3366FF !important;
 }
 
 .blue{
@@ -57,7 +57,7 @@ body{
 }
 
 #header h1:hover{
-    text-shadow:  0px 2px 1px #333333, 0px 0px 4px #333333;
+    text-shadow:  0px 2px 1px #202020, 0px 0px 4px #202020;
 }
 /*Fin de cabecera*/
 
@@ -71,7 +71,7 @@ body{
     color: white;
     font-family: sans-serif, Helvetica, Arial;
     font-size: 14px;
-    box-shadow: 0px 0px 4px greenyellow;
+    box-shadow: 0px 0px 4px #3366FF;
 }
 
 #nav ul{
@@ -212,6 +212,7 @@ body{
     width: 95%;
     margin-top: 2px;
     margin-bottom: 2px;
+    margin:center;
 }
 
 #aside div input[type="button"],
@@ -297,13 +298,13 @@ footer{
     background-color: #333;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: #878787;
     font-size: 20px;
     box-shadow: 0px 0px 2px gray;
     border-radius: 20px;
     clear: both;
     background: transparent;
-    background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-tecnologico_23-2148503801.jpg?size=626&ext=jpg);
+    background: #DFE0E2;
 }
 
 #footer .piepag{

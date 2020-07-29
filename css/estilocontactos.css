@@ -5,8 +5,7 @@
 
 
 body{
-    background: white;
-    
+background-image: url(https://image.freepik.com/vector-gratis/lineas-transistor-fondo-blanco-tecnologia_23-2148386606.jpg);
 }
 
 #titulo{
@@ -20,15 +19,13 @@ body{
     margin-bottom: 20px; 
     border-radius: 20px;
     overflow: hidden;
-
-
 }
 
 header{
     height: 150px;
     background: transparent;
     background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-tecnologico_23-2148503801.jpg?size=626&ext=jpg);
-    color:white;
+    color:White;
 }
 
 header h1{
